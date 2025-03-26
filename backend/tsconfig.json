@@ -1,15 +1,15 @@
 {
     "compilerOptions": {
-        "allowJs": false,
-        "target": "ES6",                            // Bien. Indica que el código transpilado será compatible con ES6.
-        "module": "commonjs",                       // Correcto. Usamos CommonJS para el backend en Node.js.
-        "esModuleInterop": true,                    // Necesario para importar módulos de CommonJS (como Express) usando sintaxis de ES Modules.
-        "outDir": "./dist",                         // Especifica el directorio donde se generará el código transpilado.
-        "rootDir": "./src",                         // Especifica la carpeta donde están los archivos fuente en TypeScript.
-        "strict": true,                             // Asegura que se apliquen todas las comprobaciones estrictas de TypeScript.
-        "skipLibCheck": true,                       // Evita la comprobación de los archivos de definición de los paquetes (útil para evitar errores de dependencias).
-        "forceConsistentCasingInFileNames": true    // Asegura que se mantenga la consistencia en el uso de mayúsculas y minúsculas en los nombres de los archivos.
+        "allowJs": false,                           // Deshabilitamos JavaScript
+        "target": "ES6",
+        "module": "commonjs",                       
+        "esModuleInterop": true,                    
+        "outDir": "./dist",                         
+        "rootDir": "./src",                         // Especifica la carpeta donde están los archivos fuente en TypeScript
+        "strict": true,                             // Habilita todas las comprobaciones estrictas de TypeScript
+        "skipLibCheck": true,                       
+        "forceConsistentCasingInFileNames": true    
     },
-    "include": ["src/**/*"],                        // Incluye todos los archivos dentro de la carpeta `src`.
-    "exclude": ["node_modules"]                     // Excluye la carpeta `node_modules`.
+    "include": ["src/**/*"],                        // Incluye todos los archivos dentro de la carpeta "src"
+    "exclude": ["node_modules"]                     // Excluye la carpeta "node_modules"
 }
