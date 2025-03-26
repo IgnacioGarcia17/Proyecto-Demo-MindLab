@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",                          
+    "lib": [ "dom",
+      "dom.iterable",
+      "esnext" ],                             
+    "allowJs": false,                         
+    "skipLibCheck": true,                     
+    "esModuleInterop": true,                  
+    "allowSyntheticDefaultImports": true,     
+    "strict": true,                           // Habilita todas las comprobaciones estrictas de TypeScript
+    "forceConsistentCasingInFileNames": true, 
+    "noFallthroughCasesInSwitch": true,       
+    "module": "esnext",                       
+    "moduleResolution": "node",               
+    "resolveJsonModule": true,                // Permite importar archivos ".json" como módulos en TypeScript
+    "isolatedModules": true,                  
+    "noEmit": true,                           
+    "jsx": "react-jsx"                        
+  },
+  "include": [
+    "src"
+  ]
+}
